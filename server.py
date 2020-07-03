@@ -13,7 +13,7 @@ app = Flask(__name__,
 
 photos = UploadSet('photos', IMAGES)
 
-app.config['DEBUG'] = True
+app.config['DEBUG'] = False
 app.config['UPLOAD_FOLDER'] = 'images'
 
 # Class for Image to Text
